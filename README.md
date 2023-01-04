@@ -7,7 +7,7 @@
     <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
     <li><a href="#Method-Overview">Method Overview</a></li>
     <li><a href="#Paper-and-Presentations">[Download] Paper and Presentations</a></li>
-    <li><a href="#Structure-of-the-code">Structure of the code</a></li>
+    <li><a href="#Structure-of-the-Code">Structure of the Code</a></li>
     <li><a href="#Citation">Citation</a></li>
     <li><a href="#Contact">Contact</a></li>
 </ul>
@@ -75,7 +75,7 @@ Note:<br>
     <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/MMSP22_Poster.png" alt="Poster">
 </div>
 
-## Structure of the code
+## Structure of the Code
 At the root of the project, you will see:
 ```text
 ├── main.py
