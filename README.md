@@ -14,6 +14,9 @@ The source codes of the proposed NLNet (Non-Local dependency Network) for No-ref
 ```shell
 $ python main.py --database_path Your_Database_Path --database TID2013 --batch_size 4
 ```
+Note: <br>
+(1) Other hyper-parameters can also be modified via `--parameter XXX`, e.g., `--epochs 200` and `--lr 1e-5`.<br>
+(2) Hyper-parameters can be found in the [main.py](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/main.py#L73).
 
 ### Cross-Database Evaluations
 #### Experiments Settings
