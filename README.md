@@ -1,14 +1,14 @@
 # Non-local Modeling for Image Quality Assessment
 ## Table of Contents
 <ul>
-    <li><a href="#Installation">Installation</a></li>
-    <li><a href="#Experiments-Settings-and-Usage-Demo">Experiments Settings and Usage Demo</a></li>
-    <li><a href="#Trained-Models-and-Database">Trained Models and Database</a></li>
-    <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
-    <li><a href="#Method-Overview">Method Overview</a></li>
-    <li><a href="#Paper-and-Presentations">Paper and Presentations</a></li>
-    <li><a href="#Structure-of-the-code">Structure of the code</a></li>
-    <li><a href="#Citation">Citation</a></li>
+<li><a href="#Installation">Installation</a></li>
+<li><a href="#Experiments-Settings-and-Usage-Demo">Experiments Settings and Usage Demo</a></li>
+<li><a href="#Trained-Models-and-Database">Trained Models and Database</a></li>
+<li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
+<li><a href="#Method-Overview">Method Overview</a></li>
+<li><a href="#Paper-and-Presentations">Paper and Presentations</a></li>
+<li><a href="#Structure-of-the-code">Structure of the code</a></li>
+<li><a href="#Citation">Citation</a></li>
 </ul>
 
 ## Installation
