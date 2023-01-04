@@ -1,14 +1,14 @@
 # Non-local Modeling for Image Quality Assessment
 ## Table of Contents
 <ul>
-<li><a href="#Installation">Installation</a></li>
-<li><a href="#Experiments-Settings-and-Usage-Demo">Experiments Settings and Usage Demo</a></li>
-<li><a href="#Trained-Models-and-Database">[Download] Trained Models and Database</a></li>
-<li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
-<li><a href="#Method-Overview">Method Overview</a></li>
-<li><a href="#Paper-and-Presentations">[Download] Paper and Presentations</a></li>
-<li><a href="#Structure-of-the-code">Structure of the code</a></li>
-<li><a href="#Citation">Citation</a></li>
+    <li><a href="#Installation">Installation</a></li>
+    <li><a href="#Experiments-Settings-and-Usage-Demo">Experiments Settings and Usage Demo</a></li>
+    <li><a href="#Trained-Models-and-Databases">[Download] Trained Models and Databases</a></li>
+    <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
+    <li><a href="#Method-Overview">Method Overview</a></li>
+    <li><a href="#Paper-and-Presentations">[Download] Paper and Presentations</a></li>
+    <li><a href="#Structure-of-the-code">Structure of the code</a></li>
+    <li><a href="#Citation">Citation</a></li>
 </ul>
 
 ## Installation
@@ -44,7 +44,7 @@ Note:<br>
 (1) Please change the trained models' path and Database path.<br>
 (2) The Distortion Type of the Index can be found from: [TID2013](https://www.sciencedirect.com/science/article/pii/S0923596514001490) and [KADID](http://database.mmsp-kn.de/kadid-10k-database.html). 
 
-### Trained Models and Database
+### Trained Models and Databases
 Trained Models: Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)<br>
 LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)
 
@@ -76,7 +76,6 @@ Note:<br>
 
 ## Structure of the code
 At the root of the project, you will see:
-
 ```text
 ├── main.py
 ├── model
