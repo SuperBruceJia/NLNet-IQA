@@ -3,6 +3,22 @@
 The source codes of the proposed NLNet (Non-Local dependency Network) for No-reference Image Quality Assessment (NR-IQA)
 
 ## Usage Demo
+### Intra-Database Experiments
+
+### Cross-Database Evaluations
+
+### Experiments Settings
+#### Intra-Database Experiments
+(1) Split the _reference images_ into **60% training**, **20% validation**, and **20% testing**.<br>
+(2) **10 random splits of the reference indices** by **setting random seed from 1 to 10**.<br>
+(3) The **median** performance on the testing set is reported.
+#### Cross-Database Evaluations
+(1) _One database_ is used as the **training set**, and _the other databases_ are the **testing sets**.<br>
+(2) The performance of the model in the **last epoch** (100 epochs in this work) is reported.
+
+### Trained Models and Database
+LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here]()<br>
+Trained Models: Download [here]()
 
 ## Overall Framework
 <div>
