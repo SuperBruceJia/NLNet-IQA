@@ -49,8 +49,8 @@ Trained Models: Download [here](https://drive.google.com/drive/folders/1K-24RGXy
 LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)
 
 ### Evaluation Metrics
-(1) **PLCC** (Pearson Linear Correlation Coefficient): measures the prediction accuracy<br>
-(2) **SRCC** (Spearman Rank-order Correlation Coefficient): measures the prediction monotonicity
+(1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
+(2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity
 
 ## Method Overview
 <div>
