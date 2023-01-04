@@ -12,7 +12,7 @@ The source codes of the proposed NLNet (Non-Local dependency Network) for No-ref
 (3) The **median** SRCC and PLCC on the testing set are reported.
 #### Quick Start
 ```shell
-$ python main.py --database_path Your_Database_Path --database TID2013 --batch_size 4
+$ python main.py --database_path Your_Database_Path --database TID2013 --batch_size 4 --gpu 0
 ```
 Note: <br>
 (1) Other hyper-parameters can also be modified via `--parameter XXX`, e.g., `--epochs 200` and `--lr 1e-5`.<br>
