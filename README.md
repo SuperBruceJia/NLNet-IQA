@@ -1,5 +1,20 @@
 # Non-local Modeling for Image Quality Assessment
+## Table of Contents
+<ul>
+    <li><a href="#Installation">Installation</a></li>
+    <li><a href="#Experiments-Settings-and-Usage-Demo">Experiments Settings and Usage Demo</a></li>
+    <li><a href="#Trained-Models-and-Database">Trained Models and Database</a></li>
+    <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
+    <li><a href="#Method-Overview">Method Overview</a></li>
+    <li><a href="#Paper-and-Presentations">Paper and Presentations</a></li>
+    <li><a href="#Structure-of-the-code">Structure of the code</a></li>
+    <li><a href="#Citation">Citation</a></li>
+</ul>
+
 ## Installation
+```python
+pip install -r requirements.txt
+```
 
 ## Experiments Settings and Usage Demo
 ### Intra-Database Experiments
@@ -8,8 +23,8 @@
 (2) **10 random splits of the reference indices** by **setting random seed `random.seed(random_seed)` from 1 to 10 `args.exp_id`**.<br>
 (3) The **median** SRCC and PLCC on the testing set are reported.
 #### Quick Start
-```shell
-$ python main.py --database_path Your_Database_Path --database TID2013 --batch_size 4 --gpu 0
+```python
+python main.py --database_path Your_Database_Path --database TID2013 --batch_size 4 --gpu 0
 ```
 Note: <br>
 (1) Other hyper-parameters can also be modified via `--parameter XXX`, e.g., `--epochs 200` and `--lr 1e-5`.<br>
@@ -21,7 +36,7 @@ Note: <br>
 (2) The performance of the model in the **last epoch** (100 epochs in this work) is reported.
 #### Quick Start
 
-### [Download] Trained Models and Database
+### Trained Models and Database
 Trained Models: Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)<br>
 LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)
 
@@ -40,7 +55,7 @@ LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.goog
 (iii) **Pre-trained VGGNet-16 – Local Modeling Method**: Local feature means and standard deviations are derived from the pre-trained VGGNet-16 considering the hierarchical degradation process of the HVS.<br>
 (iv) **Feature Mean & Std Fusion and Quality Prediction**: The means and standard deviations of the local and non-local features are fused to deliver a robust and comprehensive representation for quality assessment. Besides, the distortion type identification loss Lt , quality prediction loss Lq , and quality ranking loss Lr are utilized for training the NLNet. During inference, the final quality of the image is the averaged quality of all the non-overlapping patches.
 
-## [Download] Paper and Presentations
+## Paper and Presentations
 Note:<br>
 (1) **Paper** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf).<br>
 (2) **Slide Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf).<br>
