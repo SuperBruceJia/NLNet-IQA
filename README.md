@@ -2,17 +2,25 @@
 
 The source codes of the proposed NLNet (Non-Local dependency Network) for No-reference Image Quality Assessment (NR-IQA)
 
-## Model Framework
+## Usage Demo
+
+## Overall Framework
 <div>
     <div style="text-align:center">
     <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/overview.png" alt="NLNet">
 </div>
 
 ## Poster
+Note:<br>
+(1) **Paper** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf).<br>
+(2) **Slide Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf).<br>
+(3) **Poster Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf).
+
 <div>
     <div style="text-align:center">
     <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/MMSP22_Poster.png" alt="Poster">
 </div>
+
 
 ## Citation
 If you find our work useful in your research, please consider citing it in your publications. 
