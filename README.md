@@ -52,7 +52,7 @@ LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.goog
 ### Evaluation Metrics
 (1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
 (2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity<br>
-A short note of IQA evaluation metrics can be downloaded [here](https://shuyuej.com/files/MMSP/IQA_Evaluation_Metrics.pdf).
+A short note of the IQA evaluation metrics can be downloaded [here](https://shuyuej.com/files/MMSP/IQA_Evaluation_Metrics.pdf).
 
 ## Method Overview
 <div>
