@@ -22,8 +22,8 @@ $ python main.py --database_path Your_Database_Path --database TID2013 --batch_s
 #### Quick Start
 
 ### Trained Models and Database
-LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)<br>
-Trained Models: Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)
+Trained Models: Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)<br>
+LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)
 
 ### Evaluation Metrics
 (1) **PLCC** (Pearson Linear Correlation Coefficient): measures the prediction accuracy<br>
