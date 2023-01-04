@@ -32,7 +32,7 @@ Note: <br>
 
 ### Cross-Database Evaluations
 #### Experiments Settings
-(1) _One database_ is used as the **training set**, and _the other databases_ are the **testing sets**.<br>
+(1) One database is used as the training set, and the other databases are the testing sets.<br>
 (2) The performance of the model in the **last epoch** (100 epochs in this work) is reported.
 #### Quick Start
 
