@@ -26,7 +26,7 @@ Note:<br>
 If you find our work useful in your research, please consider citing it in your publications. 
 We provide a BibTeX entry below.
 
-```tex
+```bibtex
 @INPROCEEDINGS{Jia2022NLNet,
     author={Jia, Shuvue and Chen, Baoliang and Li, Dingquan and Wang, Shiqi},  
     booktitle={2022 IEEE 24th International Workshop on Multimedia Signal Processing (MMSP)},   
