@@ -2,7 +2,7 @@
 ## Table of Contents
 <ul>
     <li><a href="#Installation">Installation</a></li>
-    <li><a href="#Experiments-Settings-and-Usage-Demo">Experiments Settings and Usage Demo</a></li>
+    <li><a href="#Experiments-Settings-and-Quick-Start">Experiments Settings and Quick Start</a></li>
     <li><a href="#Trained-Models-and-Databases">[Download] Trained Models and Databases</a></li>
     <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
     <li><a href="#Method-Overview">Method Overview</a></li>
@@ -17,7 +17,7 @@
 pip install -r requirements.txt
 ```
 
-## Experiments Settings and Usage Demo
+## Experiments Settings and Quick Start
 ### Intra-Database Experiments
 #### Experiments Settings
 ✔︎ Split the _reference images_ into **60% training**, **20% validation**, and **20% testing**.<br>
