@@ -55,7 +55,30 @@ Note:<br>
 At the root of the project, you will see:
 
 ```text
-├── 
+├── main.py
+├── model
+│   ├── layers.py
+│   ├── network.py
+│   └── solver.py
+├── superpixel
+│    └── slic.py
+├── lib
+│   ├── image_process.py
+│   ├── make_index.py
+│   └── utils.py
+├── data_process
+│   ├── get_data.py
+│   └── load_data.py
+├── benchmark
+│   ├── CSIQ_datainfo.m
+│   ├── CSIQfullinfo.mat
+│   ├── KADID-10K.mat
+│   ├── LIVEfullinfo.mat
+│   ├── TID2013fullinfo.mat
+│   ├── database.py
+│   └── datainfo_maker.m
+├── save_model
+    └── README.md
 ```
 
 ## Citation
