@@ -121,4 +121,4 @@ We provide a BibTeX entry below.
 ```
 
 ## Contact
-If you have any question of this code, please send me an email at shuyuej@ieee.org.
+If you have any question, drop me an email at shuyuej@ieee.org.
