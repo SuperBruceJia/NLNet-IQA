@@ -11,6 +11,9 @@ The source codes of the proposed NLNet (Non-Local dependency Network) for No-ref
 (2) **10 random splits of the reference indices** by **setting random seed `random.seed(random_seed)` from 1 to 10 `args.exp_id`**.<br>
 (3) The **median** SRCC and PLCC on the testing set are reported.
 #### Quick Start
+```shell
+$ python main.py --database_path Your_Database_Path --database TID2013 --batch_size 4
+```
 
 ### Cross-Database Evaluations
 #### Experiments Settings
