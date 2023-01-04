@@ -54,7 +54,7 @@ We provide a BibTeX entry below.
     author    = {Jia, Shuvue and Chen, Baoliang and Li, Dingquan and Wang, Shiqi},  
     booktitle = {2022 IEEE 24th International Workshop on Multimedia Signal Processing (MMSP)},   
     title     = {No-reference Image Quality Assessment via Non-local Dependency Modeling},   
-    year      = {2022},
+    year      = {Sept. 2022},
     volume    = {},
     number    = {},
     pages     = {01-06},
