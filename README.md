@@ -9,7 +9,7 @@ The source codes of the proposed NLNet (Non-Local dependency Network) for No-ref
 #### Experiments Settings
 (1) Split the _reference images_ into **60% training**, **20% validation**, and **20% testing**.<br>
 (2) **10 random splits of the reference indices** by **setting random seed `random.seed(random_seed)` from 1 to 10 `args.exp_id`**.<br>
-(3) The **median** SRCC/PLCC performances on the testing set are reported.
+(3) The **median** SRCC and PLCC on the testing set are reported.
 #### Quick Start
 
 ### Cross-Database Evaluations
@@ -21,6 +21,10 @@ The source codes of the proposed NLNet (Non-Local dependency Network) for No-ref
 ### Trained Models and Database
 LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)<br>
 Trained Models: Download [here]()
+
+### Evaluation Metrics
+(1) **PLCC** (Pearson Linear Correlation Coefficient): measures the prediction accuracy<br>
+(2) **SRCC** (Spearman Rank-order Correlation Coefficient): measures the prediction monotonicity
 
 ## Method Overview
 <div>
