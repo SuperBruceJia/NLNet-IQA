@@ -1,4 +1,4 @@
-# NLNet for No-reference Image Quality Assessment
+# Non-local Modeling for Image Quality Assessment
 
 The source codes of the proposed NLNet (Non-Local dependency Network) for No-reference Image Quality Assessment (NR-IQA)
 
