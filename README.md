@@ -21,7 +21,7 @@ Note: <br>
 (2) The performance of the model in the **last epoch** (100 epochs in this work) is reported.
 #### Quick Start
 
-### Trained Models and Database
+### [Download] Trained Models and Database
 Trained Models: Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)<br>
 LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)
 
@@ -40,7 +40,7 @@ LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.goog
 (iii) **Pre-trained VGGNet-16 – Local Modeling Method**: Local feature means and standard deviations are derived from the pre-trained VGGNet-16 considering the hierarchical degradation process of the HVS.<br>
 (iv) **Feature Mean & Std Fusion and Quality Prediction**: The means and standard deviations of the local and non-local features are fused to deliver a robust and comprehensive representation for quality assessment. Besides, the distortion type identification loss Lt , quality prediction loss Lq , and quality ranking loss Lr are utilized for training the NLNet. During inference, the final quality of the image is the averaged quality of all the non-overlapping patches.
 
-## Paper and Presentations
+## [Download] Paper and Presentations
 Note:<br>
 (1) **Paper** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf).<br>
 (2) **Slide Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf).<br>
