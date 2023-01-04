@@ -9,6 +9,7 @@
     <li><a href="#Paper-and-Presentations">[Download] Paper and Presentations</a></li>
     <li><a href="#Structure-of-the-code">Structure of the code</a></li>
     <li><a href="#Citation">Citation</a></li>
+    <li><a href="#Contact">Contact</a></li>
 </ul>
 
 ## Installation
