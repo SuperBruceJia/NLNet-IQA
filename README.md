@@ -27,6 +27,10 @@ Trained Models: Download [here]()
     <div style="text-align:center">
     <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/overview.png" alt="NLNet">
 </div>
+(i) The input image is pre-processed.<br>
+(ii) A two-stage GNN approach is presented for the non-local feature extraction and long-range dependency construction among different regions. The first stage aggregates local features inside superpixels. The following stage learns the non-local features and long-range dependencies among the graph nodes. It then integrates short- and long-range information based on an attention mechanism. The means and standard deviations of the non-local features are obtained from the graph feature signals.<br>
+(iii) Local feature means and standard deviations are derived from the pre-trained VGGNet-16 considering the hierarchical degradation process of the HVS.<br>
+(iv) The means and standard deviations of the local and non-local features are fused to deliver a robust and comprehensive representation for quality assessment. Besides, the distortion type identification loss Lt , quality prediction loss Lq , and quality ranking loss Lr are utilized for training the NLNet. During inference, the final quality of the image is the averaged quality of all the non-overlapping patches.
 
 ## Paper and Presentations
 Note:<br>
