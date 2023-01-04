@@ -10,7 +10,7 @@ The source codes of the proposed NLNet (Non-Local dependency Network) for No-ref
     <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/overview.png" alt="NLNet">
 </div>
 
-## Poster
+## Paper and Presentations
 Note:<br>
 (1) **Paper** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf).<br>
 (2) **Slide Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf).<br>
