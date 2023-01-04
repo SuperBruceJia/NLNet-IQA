@@ -44,6 +44,12 @@ Note:<br>
     <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/MMSP22_Poster.png" alt="Poster">
 </div>
 
+## Structure of the code
+At the root of the project, you will see:
+
+```text
+├── 
+```
 
 ## Citation
 If you find our work useful in your research, please consider citing it in your publications. 
