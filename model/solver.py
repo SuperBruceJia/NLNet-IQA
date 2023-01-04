@@ -35,7 +35,6 @@ class GNNSolver(object):
         self.patch_n_nodes = args.patch_n_nodes
         self.patch_size = args.patch_size
 
-        self.GNNlayer = args.GNNlayer
         self.n_features = args.n_features
         self.hidden = args.hidden
         self.nb_heads = args.nb_heads
