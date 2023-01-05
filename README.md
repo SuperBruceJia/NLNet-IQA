@@ -27,7 +27,7 @@ Experiments Settings<br>
 ✔︎ The **median** SRCC and PLCC on the testing set are reported.<br>
 Quick Start<br>
 ```python
-python main.py --database_path '/home/jsy/BIQA/' --database TID2013 --batch_size 4 --gpu 0
+python main.py --database_path '/home/jsy/BIQA/' --database TID2013 --batch_size 4 --num_workers 8 --gpu 0
 ```
 (1) Other hyper-parameters can also be modified via `--parameter XXX`, e.g., `--epochs 200` and `--lr 1e-5`.<br>
 (2) Hyper-parameters can be found from the `parser` in the [main.py](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/main.py#L73).<br>
