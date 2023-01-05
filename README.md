@@ -30,7 +30,8 @@ Quick Start<br>
 python main.py --database_path '/home/jsy/BIQA/' --database TID2013 --batch_size 4 --gpu 0
 ```
 (1) Other hyper-parameters can also be modified via `--parameter XXX`, e.g., `--epochs 200` and `--lr 1e-5`.<br>
-(2) Hyper-parameters can be found from the `parser` in the [main.py](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/main.py#L73).
+(2) Hyper-parameters can be found from the `parser` in the [main.py](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/main.py#L73).<br>
+(3) Please change the database path `'/home/jsy/BIQA/'` to your own path.
 
 ### Cross-Database Evaluations
 Experiments Settings<br>
