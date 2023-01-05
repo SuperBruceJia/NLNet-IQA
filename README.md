@@ -61,6 +61,7 @@ Please comment [these lines](https://github.com/SuperBruceJia/NLNet-IQA/blob/mai
 ```python
 python superpixel.py
 ```
+![image](https://user-images.githubusercontent.com/31528604/210693140-b3cd777b-c825-4b11-9d5b-e5f7e1b3f6b7.png)
 
 ## Trained Models and Benchmark Databases
 ✔︎ Trained Models (Intra-Database Experiments): Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)<br>
