@@ -16,9 +16,6 @@
 
 ## Installation
 Framework: PyTorch, OpenCV, PIL, scikit-image, scikit-learn, Numba JIT, Matplotlib, etc.
-```python
-pip install -r requirements.txt
-```
 
 ## Experiments Settings and Quick Start
 ### Intra-Database Experiments
