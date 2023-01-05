@@ -27,7 +27,7 @@ Experiments Settings<br>
 ✔︎ The **median** SRCC and PLCC on the testing set are reported.<br>
 Quick Start<br>
 ```python
-python main.py --database_path Your_Database_Path --database TID2013 --batch_size 4 --gpu 0
+python main.py --database_path '/home/jsy/BIQA/' --database TID2013 --batch_size 4 --gpu 0
 ```
 (1) Other hyper-parameters can also be modified via `--parameter XXX`, e.g., `--epochs 200` and `--lr 1e-5`.<br>
 (2) Hyper-parameters can be found from the `parser` in the [main.py](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/main.py#L73).
@@ -37,6 +37,9 @@ Experiments Settings<br>
 ✔︎ One database is used as the training set, and the other databases are the testing sets.<br>
 ✔︎ The performance of the model in the **last epoch** (100 epochs in this work) is reported.<br>
 Quick Start<br>
+```python
+python cross_main.py --database_path '/home/jsy/BIQA/' --train_database TID2013 --test_database CSIQ --num_workers 8 --gpu 0
+```
 
 ### Single Distortion Type Evaluation
 ```python
@@ -47,7 +50,7 @@ python TID2013-Single-Distortion.py
 
 ### Real World Testing
 ```python
-python real_testing.py --model_file save_model/TID2013-32-4-1.pth --im_path test_images/cr7.jpg
+python real_testing.py --model_file 'save_model/TID2013-32-4-1.pth' --im_path 'test_images/cr7.jpg'
 ```
 Please comment [these lines](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/real_testing.py#L45) if you don't want to resize the original image.
 
