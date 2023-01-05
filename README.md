@@ -51,7 +51,7 @@ python TID2013-Single-Distortion.py
 (1) Please change the trained models' path and Database path.<br>
 (2) The Distortion Type of the Index can be found from original papers: [TID2013](https://www.sciencedirect.com/science/article/pii/S0923596514001490) and [KADID](http://database.mmsp-kn.de/kadid-10k-database.html). 
 
-### Real World Testing
+### Real World Image Testing
 Quick Start:
 ```python
 python real_testing.py --model_file 'save_model/TID2013-32-4-1.pth' --im_path 'test_images/cr7.jpg'
