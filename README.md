@@ -134,4 +134,4 @@ We provide a BibTeX entry below.
 If you have any question, please drop me an email at shuyuej@ieee.org.
 
 ## Acknowledgement
-The authors would like to thank Dr. Xuhao Jiang, Dr. Diqi Chen, and Dr. Jupo Ma for helpful discussions and invaluable inspiration.
+The authors would like to thank Dr. Xuhao Jiang, Dr. Diqi Chen, and Dr. Jupo Ma for helpful discussions and invaluable inspiration. A special should be shown to Dr. Dingquan Li because this code is built upon his re-implementation of the [(Wa)DIQaM-FR/NR](https://ieeexplore.ieee.org/document/8063957) model ([this repo](https://github.com/lidq92/WaDIQaM)).
