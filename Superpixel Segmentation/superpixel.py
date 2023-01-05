@@ -14,7 +14,7 @@ def image_show(image):
 
 
 # Read the image
-img = cv2.imread("cr7.jpg")
+img = cv2.imread("test_images/cr7.jpg")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # SLIC Superpixel Segmentation
