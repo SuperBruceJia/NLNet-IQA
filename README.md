@@ -15,6 +15,7 @@
 </ul>
 
 ## Installation
+Framework: PyTorch, OpenCV, PIL, scikit-image, scikit-learn, Numba JIT, Matplotlib, etc.
 ```python
 pip install -r requirements.txt
 ```
