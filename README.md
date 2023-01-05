@@ -46,6 +46,9 @@ python TID2013-Single-Distortion.py
 (2) The Distortion Type of the Index can be found from original papers: [TID2013](https://www.sciencedirect.com/science/article/pii/S0923596514001490) and [KADID](http://database.mmsp-kn.de/kadid-10k-database.html). 
 
 ### Real World Testing
+```python
+python real_testing.py --
+```
 
 ## Superpixel Segmentation Demo
 
