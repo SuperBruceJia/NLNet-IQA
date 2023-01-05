@@ -47,7 +47,7 @@ python TID2013-Single-Distortion.py
 
 ### Real World Testing
 ```python
-python real_testing.py --
+python real_testing.py --model_file save_model/TID2013-32-4-1.pth --im_path test_images/cr7.jpg
 ```
 
 ## Superpixel Segmentation Demo
