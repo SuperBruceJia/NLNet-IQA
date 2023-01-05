@@ -22,9 +22,9 @@ pip install -r requirements.txt
 ## Experiments Settings and Quick Start
 ### Intra-Database Experiments
 Experiments Settings:<br>
-✔︎ Split the _reference images_ into **60% training**, **20% validation**, and **20% testing**.<br>
-✔︎ **10 random splits of the reference indices** by **setting random seed `random.seed(random_seed)` from 1 to 10 `args.exp_id`**.<br>
-✔︎ The **median** SRCC and PLCC on the testing set are reported.<br>
+✔︎ Split the reference images into 60% training, 20% validation, and 20% testing.<br>
+✔︎ 10 random splits of the reference indices by setting random seed `random.seed(random_seed)` from 1 to 10 `args.exp_id`.<br>
+✔︎ The median SRCC and PLCC on the testing set are reported.<br>
 
 Quick Start:<br>
 ```python
@@ -37,7 +37,7 @@ python main.py --database_path '/home/jsy/BIQA/' --database TID2013 --batch_size
 ### Cross-Database Evaluations
 Experiments Settings:<br>
 ✔︎ One database is used as the training set, and the other databases are the testing sets.<br>
-✔︎ The performance of the model in the **last epoch** (100 epochs in this work) is reported.<br>
+✔︎ The performance of the model in the last epoch (100 epochs in this work) is reported.<br>
 
 Quick Start: (Folder: Cross Database Evaluations)<br>
 ```python
