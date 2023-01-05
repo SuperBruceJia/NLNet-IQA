@@ -123,6 +123,8 @@ At the root of the project, you will see:
 │   └── datainfo_maker.m
 ├── save_model
 │   └── README.md
+├── test_images
+│   └── cr7.jpg
 ├── real_testing.py
 ```
 
