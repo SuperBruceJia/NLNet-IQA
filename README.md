@@ -88,6 +88,7 @@ A short note of the IQA evaluation metrics can be downloaded [here](https://shuy
     <div style="text-align:center">
     <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/MMSP22_Poster.png" alt="Poster">
 </div>
+
 (i) **Image Preprocessing**: The input image is pre-processed. 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/lib/image_process.py#L17).<br>
 (ii) **Graph Neural Network – Non-Local Modeling Method**: A two-stage GNN approach is presented for the non-local feature extraction and long-range dependency construction among different regions. The first stage aggregates local features inside superpixels. The following stage learns the non-local features and long-range dependencies among the graph nodes. It then integrates short- and long-range information based on an attention mechanism. The means and standard deviations of the non-local features are obtained from the graph feature signals. 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/model/network.py#L62).<br>
 (iii) **Pre-trained VGGNet-16 – Local Modeling Method**: Local feature means and standard deviations are derived from the pre-trained VGGNet-16 considering the hierarchical degradation process of the HVS. 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/model/network.py#L37).<br>
