@@ -49,6 +49,7 @@ python TID2013-Single-Distortion.py
 ```python
 python real_testing.py --model_file save_model/TID2013-32-4-1.pth --im_path test_images/cr7.jpg
 ```
+Please comment [these lines](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/real_testing.py#L45) if you don't want to resize the original image.
 
 ## Superpixel Segmentation Demo
 
