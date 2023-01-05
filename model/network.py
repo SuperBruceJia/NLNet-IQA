@@ -19,8 +19,6 @@ class Network(nn.Module):
     def __init__(self, args):
         super(Network, self).__init__()
 
-        self.GNNlayer = args.GNNlayer
-
         self.nfeat = args.n_features
         self.nhid = args.hidden
         self.nheads = args.nb_heads
