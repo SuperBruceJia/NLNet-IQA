@@ -11,6 +11,7 @@
     <li><a href="#Structure-of-the-Code">Structure of the Code</a></li>
     <li><a href="#Citation">Citation</a></li>
     <li><a href="#Contact">Contact</a></li>
+    <li><a href="#Acknowledgement">Acknowledgement</a></li>
 </ul>
 
 ## Installation
@@ -131,3 +132,6 @@ We provide a BibTeX entry below.
 
 ## Contact
 If you have any question, please drop me an email at shuyuej@ieee.org.
+
+## Acknowledgement
+The authors would like to thank Dr. Xuhao Jiang, Dr. Diqi Chen, and Dr. Jupo Ma for helpful discussions and invaluable inspiration.
