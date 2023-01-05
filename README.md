@@ -58,7 +58,9 @@ python real_testing.py --model_file 'save_model/TID2013-32-4-1.pth' --im_path 't
 Please comment [these lines](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/real_testing.py#L45) if you don't want to resize the original image.
 
 ## Superpixel Segmentation Demo
-
+```python
+python superpixel.py
+```
 
 ## Trained Models and Benchmark Databases
 ✔︎ Trained Models (Intra-Database Experiments): Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)<br>
