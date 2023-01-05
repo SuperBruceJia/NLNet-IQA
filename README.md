@@ -39,12 +39,13 @@ Experiments Settings:<br>
 ✔︎ One database is used as the training set, and the other databases are the testing sets.<br>
 ✔︎ The performance of the model in the **last epoch** (100 epochs in this work) is reported.<br>
 
-Quick Start:<br>
+Quick Start: (Folder: Cross Database Evaluations)<br>
 ```python
 python cross_main.py --database_path '/home/jsy/BIQA/' --train_database TID2013 --test_database CSIQ --num_workers 8 --gpu 0
 ```
 
 ### Single Distortion Type Evaluation
+Quick Start (Folder: Individual Distortion Evaluation):
 ```python
 python TID2013-Single-Distortion.py
 ```
@@ -52,12 +53,14 @@ python TID2013-Single-Distortion.py
 (2) The Distortion Type of the Index can be found from original papers: [TID2013](https://www.sciencedirect.com/science/article/pii/S0923596514001490) and [KADID](http://database.mmsp-kn.de/kadid-10k-database.html). 
 
 ### Real World Testing
+Quick Start:
 ```python
 python real_testing.py --model_file 'save_model/TID2013-32-4-1.pth' --im_path 'test_images/cr7.jpg'
 ```
 Please comment [these lines](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/real_testing.py#L45) if you don't want to resize the original image.
 
 ## Superpixel Segmentation Demo
+Quick Start (Folder: Superpixel Segmentation):
 ```python
 python superpixel.py
 ```
