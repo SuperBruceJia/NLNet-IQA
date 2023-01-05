@@ -93,7 +93,7 @@ At the root of the project, you will see:
 │   ├── network.py
 │   └── solver.py
 ├── superpixel
-│    └── slic.py
+│   └── slic.py
 ├── lib
 │   ├── image_process.py
 │   ├── make_index.py
