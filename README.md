@@ -51,13 +51,12 @@ Note:<br>
 ## Superpixel Segmentation Demo
 
 
-### Trained Models and Benchmark Databases
-#### Experiments Settings
+## Trained Models and Benchmark Databases
 ✔︎ Trained Models (Intra-Database Experiments): Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)<br>
 ✔︎ Trained Models (Cross-Database Evaluations): Download [here](https://drive.google.com/drive/folders/1-9XfTt4ne057Ureecf_eLXiMQ_4xucgJ?usp=sharing)<br>
 ✔︎ LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)
 
-### Evaluation Metrics
+## Evaluation Metrics
 (1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
 (2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity<br>
 A short note of the IQA evaluation metrics can be downloaded [here](https://shuyuej.com/files/MMSP/IQA_Evaluation_Metrics.pdf).
