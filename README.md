@@ -3,6 +3,7 @@
 <ul>
     <li><a href="#Installation">Installation</a></li>
     <li><a href="#Experiments-Settings-and-Quick-Start">Experiments Settings and Quick Start</a></li>
+    <li><a href="#Superpixel-Segmentation-Demo">Superpixel Segmentation Demo</a></li>
     <li><a href="#Trained-Models-and-Benchmark-Databases">[Download] Trained Models and Benchmark Databases</a></li>
     <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
     <li><a href="#Method-Overview">Method Overview</a></li>
@@ -44,6 +45,9 @@ python TID2013-Single-Distortion.py
 Note:<br>
 (1) Please change the trained models' path and Database path.<br>
 (2) The Distortion Type of the Index can be found from original papers: [TID2013](https://www.sciencedirect.com/science/article/pii/S0923596514001490) and [KADID](http://database.mmsp-kn.de/kadid-10k-database.html). 
+
+## Superpixel Segmentation Demo
+
 
 ### Trained Models and Benchmark Databases
 Trained Models (Intra-Database Experiments): Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)<br>
