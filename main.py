@@ -118,7 +118,7 @@ if __name__ == "__main__":
                         help='Number of nodes for a patch-level superpixels (default: 100)')
 
     # CNN Hyperparameters
-    parser.add_argument('--patch_size', default=112, type=int, help='Image Patch Size for CNN model (default: 224)')
+    parser.add_argument('--patch_size', default=112, type=int, help='Image Patch Size for CNN model (default: 112)')
     parser.add_argument('--n_patches_train', default=1, type=int, help='Number of patches for CNN model (default: 1)')
     
     args = parser.parse_args()
