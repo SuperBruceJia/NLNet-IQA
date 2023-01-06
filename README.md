@@ -89,7 +89,16 @@ python superpixel.py
 ✔︎ LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)
 
 ## Global Distortions and Local Distortions
+**Global Distortions**: the globally and uniformly distributed distortions with non-local recurrences over the image.<br>
+**Local Distortions**: the local nonuniform-distributed distortions in a local region.
     
+✔︎ LIVE Database:
+    
+    Global Distortions: JPEG, JP2K, WN, GB
+    
+    Local Distortions: FF
+    
+
 ## Evaluation Metrics
 (1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
 (2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity<br>
