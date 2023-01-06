@@ -217,7 +217,7 @@ If you find our work useful in your research, please consider citing it in your 
 We provide a BibTeX entry below.
 
 ```bibtex
-@INPROCEEDINGS{Jia2022NLNet,
+@inproceedings{Jia2022NLNet,
     title     = {No-reference Image Quality Assessment via Non-local Dependency Modeling},   
     author    = {Jia, Shuvue and Chen, Baoliang and Li, Dingquan and Wang, Shiqi},  
     booktitle = {2022 IEEE 24th International Workshop on Multimedia Signal Processing (MMSP)},   
