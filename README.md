@@ -138,7 +138,7 @@ python superpixel.py
     
 ✔︎ LIVE Database:
     
-    Global Distortions: JPEG, JP2K, WN, GB
+    Global Distortions: JPEG, JP2K, WN, and GB
     
     Local Distortions: FF
 
@@ -149,7 +149,7 @@ python superpixel.py
 
 ✔︎ CSIQ Database:
     
-    Global Distortions: JPEG, JP2K, WN, GB, PN, СС
+    Global Distortions: JPEG, JP2K, WN, GB, PN, and СС
     
     Local Distortions: There is no local distortion in CSIQ Database.
 
@@ -173,7 +173,7 @@ python superpixel.py
     
     Global Distortions: blurs (lens blur, motion blur, and GB), color distortions (color diffusion, color shift, color saturation 1, color saturation 2, and color quantization), compression (JPEG and JP2K), noise (impulse noise, denoise, WN, white noise in color component, and multiplicative noise), brightness change (brighten, darken, and mean shift), spatial distortions (jitter, pixelate, and quantization), and sharpness and contrast (high sharpen and contrast change)
     
-    Local Distortions: Color block, and Non-eccentricity patch
+    Local Distortions: Color block and Non-eccentricity patch
 
 <details>
 <summary>Distortion Demo</summary>
