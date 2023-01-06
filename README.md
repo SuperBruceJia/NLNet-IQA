@@ -10,9 +10,9 @@
     <li><a href="#Experiments-Settings-and-Quick-Start">Experiments Settings and Quick Start</a></li>
     <li><a href="#Superpixel-Segmentation-Demo">Superpixel Segmentation Demo</a></li>
     <li><a href="#Trained-Models-and-Benchmark-Databases">[Download] Trained Models and Benchmark Databases</a></li>
+    <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
     <li><a href="#Local-Modeling-and-Non-local-Modeling">[Definition] Local Modeling and Non-local Modeling</a></li>
     <li><a href="#Global-Distortions-and-Local-Distortions">[Definition] Global Distortions and Local Distortions</a></li>
-    <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
     <li><a href="#Paper-and-Presentations">[Download] Paper and Presentations</a></li>
     <li><a href="#Structure-of-the-Code">Structure of the Code</a></li>
     <li><a href="#Citation">Citation</a></li>
@@ -117,6 +117,12 @@ python superpixel.py
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/210788223-dbe067f6-64e1-4f74-a747-4c07b42088bd.png">
 </details>
 
+## Evaluation Metrics
+(1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
+(2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity<br>
+✔︎ A short note of the IQA evaluation metrics can be downloaded [here](https://shuyuej.com/files/MMSP/IQA_Evaluation_Metrics.pdf).<br>
+✔︎ In the [code](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/lib/utils.py#L29) (`evaluation_criteria` function), PLCC, SRCC, Kendall Rank-order Correlation Coefficient (KRCC), Root Mean Square Error (RMSE), Mean Absolute Error (MAE), and Outlier Ratio (OR) are all calculated. In this work, I only compare the PLCC and SRCC among different IQA algorithms.
+
 ## Local Modeling and Non-local Modeling
 **Local Modeling**: The local modeling methods encode spatially proximate local neighborhoods.<br>
 **Non-local Modeling**: The non-local modeling establishes the spatial integration of information by long- and short-range communications with different spatial weighting functions.
@@ -179,11 +185,6 @@ python superpixel.py
 <summary>Distortion Demo</summary>
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/210928749-1d080cc4-04b4-462e-bc3b-0e6e3344d38d.png">
 </details>
-
-## Evaluation Metrics
-(1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
-(2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity<br>
-A short note of the IQA evaluation metrics can be downloaded [here](https://shuyuej.com/files/MMSP/IQA_Evaluation_Metrics.pdf).
 
 ## Paper and Presentations
 (1) **Original Paper** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf).<br>
