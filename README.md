@@ -50,6 +50,8 @@ Quick Start: (Folder: Cross Database Evaluations)<br>
 python cross_main.py --database_path '/home/jsy/BIQA/' --train_database TID2013 --test_database CSIQ --num_workers 8 --gpu 0
 ```
 
+<img width="966" alt="image" src="https://user-images.githubusercontent.com/31528604/210927394-850c1c7c-7b69-4c67-9979-231db6340923.png">
+
 ### Single Distortion Type Evaluation
 Quick Start (Folder: Individual Distortion Evaluation):
 ```python
