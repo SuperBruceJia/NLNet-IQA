@@ -10,6 +10,7 @@
     <li><a href="#Experiments-Settings-and-Quick-Start">Experiments Settings and Quick Start</a></li>
     <li><a href="#Superpixel-Segmentation-Demo">Superpixel Segmentation Demo</a></li>
     <li><a href="#Trained-Models-and-Benchmark-Databases">Trained Models and Benchmark Databases</a></li>
+    <li><a href="#Local-Modeling-and-Non-local-Modeling">Local Modeling and Non-local Modeling</a></li>
     <li><a href="#Global-Distortions-and-Local-Distortions">Global Distortions and Local Distortions</a></li>
     <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
     <li><a href="#Paper-and-Presentations">Paper and Presentations</a></li>
@@ -111,7 +112,16 @@ python superpixel.py
 <summary>Databases Summary</summary>
 <img width="560" alt="image" src="https://user-images.githubusercontent.com/31528604/210788223-dbe067f6-64e1-4f74-a747-4c07b42088bd.png">
 </details>
-    
+
+## Local Modeling and Non-local Modeling
+**Local Modeling**: The local modeling methods encode spatially proximate local neighborhoods.<br>
+**Non-local Modeling**: The non-local modeling establishes the spatial integration of information by long- and short-range communications with different spatial weighting functions.
+
+<details>
+<summary>Non-local Behavior Demo</summary>
+<img width="1024" alt="image" src="https://user-images.githubusercontent.com/31528604/211026397-7990fdbd-b41a-414a-a40f-ec4ecb637dcf.png">
+</details>
+
 ## Global Distortions and Local Distortions
 **Global Distortions**: the globally and uniformly distributed distortions with non-local recurrences over the image.<br>
 **Local Distortions**: the local nonuniform-distributed distortions in a local region.
