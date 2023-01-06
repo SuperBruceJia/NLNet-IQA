@@ -9,11 +9,11 @@
     <li><a href="#Installation">Installation</a></li>
     <li><a href="#Experiments-Settings-and-Quick-Start">Experiments Settings and Quick Start</a></li>
     <li><a href="#Superpixel-Segmentation-Demo">Superpixel Segmentation Demo</a></li>
-    <li><a href="#Trained-Models-and-Benchmark-Databases">Trained Models and Benchmark Databases</a></li>
-    <li><a href="#Local-Modeling-and-Non-local-Modeling">Local Modeling and Non-local Modeling</a></li>
-    <li><a href="#Global-Distortions-and-Local-Distortions">Global Distortions and Local Distortions</a></li>
+    <li><a href="#Trained-Models-and-Benchmark-Databases">[Download] Trained Models and Benchmark Databases</a></li>
+    <li><a href="#Local-Modeling-and-Non-local-Modeling">[Definition] Local Modeling and Non-local Modeling</a></li>
+    <li><a href="#Global-Distortions-and-Local-Distortions">[Definition] Global Distortions and Local Distortions</a></li>
     <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
-    <li><a href="#Paper-and-Presentations">Paper and Presentations</a></li>
+    <li><a href="#Paper-and-Presentations">[Download] Paper and Presentations</a></li>
     <li><a href="#Structure-of-the-Code">Structure of the Code</a></li>
     <li><a href="#Citation">Citation</a></li>
     <li><a href="#Contact">Contact</a></li>
