@@ -37,6 +37,9 @@ python main.py --database_path '/home/jsy/BIQA/' --database TID2013 --batch_size
 (2) Hyper-parameters can be found from the `parser` in the [main.py](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/main.py#L73).<br>
 (3) Please change the database path `'/home/jsy/BIQA/'` to your own path.
 
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/31528604/210926899-dbadfdd4-f9e5-4b78-bbeb-a637cf063e73.png">
+<img width="961" alt="image" src="https://user-images.githubusercontent.com/31528604/210926960-1398dc6d-2e46-45ae-a6e5-7202b762e765.png">
+
 ### Cross-Database Evaluations
 Experiments Settings:<br>
 ✔︎ One database is used as the training set, and the other databases are the testing sets.<br>
