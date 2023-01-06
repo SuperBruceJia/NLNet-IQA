@@ -100,6 +100,28 @@ python superpixel.py
     
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/31528604/210927999-48d2d4e2-d63a-4ece-8681-e5fbe1fb3d98.png">
 
+✔︎ CSIQ Database:
+    
+    Global Distortions: JPEG, JP2K, WN, GB, PN, СС
+    
+    Local Distortions: There is no local distortion in CSIQ Database.
+    
+<img width="950" alt="image" src="https://user-images.githubusercontent.com/31528604/210928260-3f3d938e-53eb-43fb-90d2-7cca59850aee.png">
+
+✔︎ TID2013 Database:
+    
+    Global Distortions: Additive Gaussian noise, Lossy compression of noisy images, Additive noise in color components, Comfort noise, Contrast change, Change of color saturation, Spatially correlated noise, High frequency noise, Impulse noise, Quantization noise, Gaussian blur, Image denoising, JPEG compression, JPEG 2000 compression, Multiplicative Gaussian noise, Image color quantization with dither, Sparse sampling and reconstruction, Chromatic aberrations, Masked noise, and Mean shift (intensity shift)
+    
+    Local Distortions: JPEG transmission errors, JPEG 2000 transmission errors, Non eccentricity pattern noise, and Local bock-wise distortions with different intensity
+
+<img width="618" alt="image" src="https://user-images.githubusercontent.com/31528604/210928535-4f9bc8ad-f9ca-4a25-bbc0-5a9d3016a637.png">
+
+✔︎ KADID-10k Database:
+    
+    Global Distortions: blurs (lens blur, motion blur, and GB), color distortions (color diffusion, color shift, color saturation 1, color saturation 2, and color quantization), compression (JPEG and JP2K), noise (impulse noise, denoise, WN, white noise in color component, and multiplicative noise), brightness change (brighten, darken, and mean shift), spatial distortions (jitter, pixelate, and quantization), and sharpness and contrast (high sharpen and contrast change)
+    
+    Local Distortions: Color block, and Non-eccentricity patch
+ 
 ## Evaluation Metrics
 (1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
 (2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity<br>
