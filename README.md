@@ -101,7 +101,11 @@ Quick Start (Folder: Superpixel Segmentation):
 ```python
 python superpixel.py
 ```
+
+<details>
+<summary>Superpixel vs. Square Patch Representation Demo</summary>
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/210959208-6381e2f1-0b0f-4bd6-90b2-8a2039c08a09.png">
+</details>
 
 ## Trained Models and Benchmark Databases
 ✔︎ Trained Models (Intra-Database Experiments): Download [here](https://drive.google.com/drive/folders/1K-24RGXyvSUZfnTThQ0CXUf4BgJA_pn7?usp=sharing)<br>
