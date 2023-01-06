@@ -119,7 +119,8 @@ python superpixel.py
 
 <details>
 <summary>Non-local Behavior Demo</summary>
-<img width="1024" alt="image" src="https://user-images.githubusercontent.com/31528604/211026397-7990fdbd-b41a-414a-a40f-ec4ecb637dcf.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211026397-7990fdbd-b41a-414a-a40f-ec4ecb637dcf.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211026979-60e49649-75c5-481f-86d0-021c2ad5cde6.png">
 </details>
 
 ## Global Distortions and Local Distortions
