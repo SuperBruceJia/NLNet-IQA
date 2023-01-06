@@ -10,6 +10,7 @@
     <li><a href="#Experiments-Settings-and-Quick-Start">Experiments Settings and Quick Start</a></li>
     <li><a href="#Superpixel-Segmentation-Demo">Superpixel Segmentation Demo</a></li>
     <li><a href="#Trained-Models-and-Benchmark-Databases">Trained Models and Benchmark Databases</a></li>
+    <li><a href="#Global-Distortions-and-Local-Distortions">Global Distortions and Local Distortions</a></li>
     <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
     <li><a href="#Paper-and-Presentations">Paper and Presentations</a></li>
     <li><a href="#Structure-of-the-Code">Structure of the Code</a></li>
@@ -87,6 +88,8 @@ python superpixel.py
 
 ✔︎ LIVE, CSIQ, TID2013, and KADID-10k Databases: Download [here](https://drive.google.com/drive/folders/1gfBlByg1bpBXQOFZb6LyCttaX4eAf_Eh?usp=sharing)
 
+## Global Distortions and Local Distortions
+    
 ## Evaluation Metrics
 (1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
 (2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity<br>
