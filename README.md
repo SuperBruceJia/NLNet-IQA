@@ -121,7 +121,9 @@ python superpixel.py
     Global Distortions: blurs (lens blur, motion blur, and GB), color distortions (color diffusion, color shift, color saturation 1, color saturation 2, and color quantization), compression (JPEG and JP2K), noise (impulse noise, denoise, WN, white noise in color component, and multiplicative noise), brightness change (brighten, darken, and mean shift), spatial distortions (jitter, pixelate, and quantization), and sharpness and contrast (high sharpen and contrast change)
     
     Local Distortions: Color block, and Non-eccentricity patch
- 
+
+<img width="970" alt="image" src="https://user-images.githubusercontent.com/31528604/210928749-1d080cc4-04b4-462e-bc3b-0e6e3344d38d.png">
+
 ## Evaluation Metrics
 (1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
 (2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity<br>
