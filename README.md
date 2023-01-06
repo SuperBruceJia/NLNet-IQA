@@ -98,6 +98,7 @@ python superpixel.py
     
     Local Distortions: FF
     
+<img width="582" alt="image" src="https://user-images.githubusercontent.com/31528604/210927999-48d2d4e2-d63a-4ece-8681-e5fbe1fb3d98.png">
 
 ## Evaluation Metrics
 (1) Pearson Linear Correlation Coefficient (**PLCC**): measures the prediction accuracy<br>
