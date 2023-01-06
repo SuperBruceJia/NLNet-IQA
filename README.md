@@ -123,6 +123,11 @@ python superpixel.py
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211026979-60e49649-75c5-481f-86d0-021c2ad5cde6.png">
 </details>
 
+<details>
+<summary>Local Modeling vs. Non-local Modeling Demo</summary>
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211028273-373e8139-f111-40be-b214-019a64b90392.png">
+</details>
+
 ## Global Distortions and Local Distortions
 **Global Distortions**: the globally and uniformly distributed distortions with non-local recurrences over the image.<br>
 **Local Distortions**: the local nonuniform-distributed distortions in a local region.
