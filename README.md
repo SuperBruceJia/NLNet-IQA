@@ -57,7 +57,7 @@ python cross_main.py --database_path '/home/jsy/BIQA/' --train_database TID2013 
 
 <details>
 <summary>Experimental Results</summary>
-<img width="966" alt="image" src="https://user-images.githubusercontent.com/31528604/210927394-850c1c7c-7b69-4c67-9979-231db6340923.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211262888-47344479-6e4c-42c6-b9f2-113d9e0d4fbe.png">
 </details>
 
 ### Single Distortion Type Evaluation
