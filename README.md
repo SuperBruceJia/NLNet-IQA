@@ -42,7 +42,7 @@ python main.py --database_path '/home/jsy/BIQA/' --database TID2013 --batch_size
 <details>
 <summary>Experimental Results</summary>
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211454477-1f112208-6f3f-45fe-8cfc-86fb311e243a.png">
-<img width="961" alt="image" src="https://user-images.githubusercontent.com/31528604/210926960-1398dc6d-2e46-45ae-a6e5-7202b762e765.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211454790-904f12cb-ae83-4bb2-8eea-bd762b64c0f4.png">
 </details>
 
 ### Cross-Database Evaluations
