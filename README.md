@@ -114,7 +114,7 @@ python superpixel.py
 
 <details>
 <summary>Databases Summary</summary>
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/210788223-dbe067f6-64e1-4f74-a747-4c07b42088bd.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211455700-1436735c-eec6-4670-b509-2bf784a11aee.png">
 </details>
 
 ## Evaluation Metrics
