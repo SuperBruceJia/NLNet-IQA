@@ -81,12 +81,12 @@ CSIQ Database:
 ---
 
 TID2013 Database:
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211455110-c48a94ca-599c-45a5-97e7-4d735cd994e5.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/31528604/211455110-c48a94ca-599c-45a5-97e7-4d735cd994e5.png">
 
 ---
 
 KADID-10k Database:
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211455189-c367264c-03c5-49d0-8388-e8cdb1de6a49.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/31528604/211455189-c367264c-03c5-49d0-8388-e8cdb1de6a49.png">
 </details>
 
 ### Real World Image Testing
