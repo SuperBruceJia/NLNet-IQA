@@ -57,7 +57,7 @@ python cross_main.py --database_path '/home/jsy/BIQA/' --train_database TID2013 
 
 <details>
 <summary>Experimental Results</summary>
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211262888-47344479-6e4c-42c6-b9f2-113d9e0d4fbe.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211455285-b29db97a-29d8-499a-a728-5707afe56e22.png">
 </details>
 
 ### Single Distortion Type Evaluation
@@ -71,22 +71,22 @@ python TID2013-Single-Distortion.py
 <details>
 <summary>Experimental Results</summary>
 LIVE Database:
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/210927080-c93f517d-fdd0-4663-8c22-3554044c8f0a.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211454955-d9346292-b718-45f5-8f8a-14c81cc19586.png">
 
 ---
 
 CSIQ Database:
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/210927134-173b4668-ab33-4cce-8a64-16472b53c13a.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211455036-99a31158-967d-46b4-8ba1-4a2187447373.png">
 
 ---
 
 TID2013 Database:
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/210927196-9274be91-75c3-4481-bef1-678027016d7a.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211455110-c48a94ca-599c-45a5-97e7-4d735cd994e5.png">
 
 ---
 
 KADID-10k Database:
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/210927248-c334dd50-2379-43a6-bd9b-38cf9a3810f8.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211455189-c367264c-03c5-49d0-8388-e8cdb1de6a49.png">
 </details>
 
 ### Real World Image Testing
