@@ -120,6 +120,7 @@ python superpixel.py
 <details>
 <summary>Databases Summary</summary>
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211455700-1436735c-eec6-4670-b509-2bf784a11aee.png">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211731935-e1559cf9-15aa-4a33-bf86-540deb70028a.png">
 </details>
 
 ## Evaluation Metrics
