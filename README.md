@@ -133,6 +133,8 @@ python superpixel.py
 **Local Modeling**: The local modeling methods encode spatially proximate local neighborhoods.<br>
 **Non-local Modeling**: The non-local modeling establishes the spatial integration of information by long- and short-range communications with different spatial weighting functions.
 
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/211800298-1aff6c48-92e6-427c-99b2-386ef52eb973.png">
+
 <details>
 <summary>Non-local Behavior Demo</summary>
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/211026397-7990fdbd-b41a-414a-a40f-ec4ecb637dcf.png">
@@ -147,7 +149,9 @@ python superpixel.py
 ## Global Distortions and Local Distortions
 **Global Distortions**: the globally and uniformly distributed distortions with non-local recurrences over the image.<br>
 **Local Distortions**: the local nonuniform-distributed distortions in a local region.
-    
+
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/211800502-c68e031a-1761-4599-bcef-fffaa46f2851.png">
+
 ✔︎ LIVE Database:
     
     Global Distortions: JPEG, JP2K, WN, and GB
