@@ -154,7 +154,7 @@ python superpixel.py
 **Global Distortions**: the globally and uniformly distributed distortions with non-local recurrences over the image.<br>
 **Local Distortions**: the local nonuniform-distributed distortions in a local region.
 
-<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/211958119-ff90be40-5f95-4127-afe3-ed44940f39d0.png">
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212030963-0ee29195-41a3-48b1-92b9-26473b120cf4.png">
 
 ✔︎ LIVE Database:
     
