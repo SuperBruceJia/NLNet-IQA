@@ -111,8 +111,8 @@ python superpixel.py
 <summary>Superpixel vs. Square Patch Representation Demo</summary>
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/31528604/210959208-6381e2f1-0b0f-4bd6-90b2-8a2039c08a09.png">
 <img width="1600" alt="image" src="https://user-images.githubusercontent.com/31528604/211961193-9dc63ea6-d753-4f93-af20-b3d1dc24dc59.png">
-<img width="1600" alt="image" src="https://user-images.githubusercontent.com/31528604/211961229-6aa0b006-c6dc-4617-ae5f-3dfd3839d8e0.png">
-<img width="1600" alt="image" src="https://user-images.githubusercontent.com/31528604/211961261-624a8842-ea07-4dfc-a0e9-ca457d8b8efb.png">
+<img width="1600" alt="image" src="https://user-images.githubusercontent.com/31528604/211976748-3cbae528-d4e8-4f7a-893f-f04110e36abe.png">
+<img width="1600" alt="image" src="https://user-images.githubusercontent.com/31528604/211976777-e617f93f-9237-407d-bdcf-36874f4c66d4.png">
 </details>
 
 ## Trained Models and Benchmark Databases
