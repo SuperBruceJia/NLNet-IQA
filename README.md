@@ -200,8 +200,9 @@ python superpixel.py
 ## Paper and Presentations
 (1) **Original Paper** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf).<br>
 (2) **Detailed Slides Presentation** can be downloaded [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf).<br>
-(3) **Simple Slides Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf).<br>
-(4) **Poster Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf).
+(3) **Detailed Slides Presentation with Animations** can be downloaded [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects_Animations.pdf).<br>
+(4) **Simple Slides Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf).<br>
+(5) **Poster Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf).
 
 ### Model Overiew
 <div>
