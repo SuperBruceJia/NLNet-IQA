@@ -1,8 +1,5 @@
 # Non-local Modeling for Image Quality Assessment
-<div>
-    <div style="text-align:center">
-    <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/overview.png" alt="NLNet">
-</div>
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/31528604/212229645-041c280b-fcaf-4d5a-8703-2d94f2fe1615.png">
 
 ## Table of Contents
 <ul>
@@ -206,15 +203,22 @@ python superpixel.py
 (3) **Simple Slides Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf).<br>
 (4) **Poster Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf).
 
+### Model Overiew
 <div>
     <div style="text-align:center">
-    <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/MMSP22_Poster.png" alt="Poster">
+    <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/overview.png" alt="NLNet">
 </div>
 
 (i) **Image Preprocessing**: The input image is pre-processed. 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/lib/image_process.py#L17).<br>
 (ii) **Graph Neural Network – Non-Local Modeling Method**: A two-stage GNN approach is presented for the non-local feature extraction and long-range dependency construction among different regions. The first stage aggregates local features inside superpixels. The following stage learns the non-local features and long-range dependencies among the graph nodes. It then integrates short- and long-range information based on an attention mechanism. The means and standard deviations of the non-local features are obtained from the graph feature signals. 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/model/network.py#L62).<br>
 (iii) **Pre-trained VGGNet-16 – Local Modeling Method**: Local feature means and standard deviations are derived from the pre-trained VGGNet-16 considering the hierarchical degradation process of the HVS. 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/model/network.py#L37).<br>
 (iv) **Feature Mean & Std Fusion and Quality Prediction**: The means and standard deviations of the local and non-local features are fused to deliver a robust and comprehensive representation for quality assessment. 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/model/network.py). Besides, the distortion type identification loss $L_t$ , quality prediction loss $L_q$ , and quality ranking loss $L_r$ are utilized for training the NLNet. 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/model/solver.py#L171). During inference, the final quality of the image is the averaged quality of all the non-overlapping patches. 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/lib/image_process.py#L17). 
+
+### Poster Presentation
+<div>
+    <div style="text-align:center">
+    <img width=100%device-width src="https://github.com/SuperBruceJia/NLNet-IQA/raw/main/MMSP22_Poster.png" alt="Poster">
+</div>
 
 ## Structure of the Code
 At the root of the project, you will see:
