@@ -268,7 +268,7 @@ We provide a BibTeX entry below.
 ```bibtex
 @inproceedings{Jia2022NLNet,
     title     = {No-reference Image Quality Assessment via Non-local Dependency Modeling},   
-    author    = {Jia, Shuvue and Chen, Baoliang and Li, Dingquan and Wang, Shiqi},  
+    author    = {Jia, Shuyue and Chen, Baoliang and Li, Dingquan and Wang, Shiqi},  
     booktitle = {2022 IEEE 24th International Workshop on Multimedia Signal Processing (MMSP)},   
     year      = {Sept. 2022},
     volume    = {},
