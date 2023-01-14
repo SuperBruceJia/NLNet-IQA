@@ -134,7 +134,7 @@ python superpixel.py
 **Non-local Modeling**: The non-local modeling establishes the spatial integration of information by long- and short-range communications with different spatial weighting functions.
 
 <img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212030753-2d9dcf05-c241-4ab4-b2ee-98a2e7a79c1c.png">
-<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212030818-1171ef26-0c39-40aa-99e0-d9e778624100.png">
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212447871-5625d409-52d1-42dd-acd3-174d6441bc6d.png">
 
 <details>
 <summary>Non-local Behavior Demo</summary>
