@@ -8,6 +8,7 @@
     <li><a href="#Superpixel-Segmentation-Demo">Superpixel Segmentation Demo</a></li>
     <li><a href="#Trained-Models-and-Benchmark-Databases">[Download] Trained Models and Benchmark Databases</a></li>
     <li><a href="#Evaluation-Metrics">Evaluation Metrics</a></li>
+    <li><a href="#Motivation">Motivation</a></li>
     <li><a href="#Local-Modeling-and-Non-local-Modeling">[Definition] Local Modeling and Non-local Modeling</a></li>
     <li><a href="#Global-Distortions-and-Local-Distortions">[Definition] Global Distortions and Local Distortions</a></li>
     <li><a href="#Paper-and-Presentations">[Download] Paper and Presentations</a></li>
@@ -128,6 +129,13 @@ python superpixel.py
 (2) Spearman Rank-order Correlation Coefficient (**SRCC**): measures the prediction monotonicity<br>
 ✔︎ A short note of the IQA evaluation metrics can be downloaded [here](https://shuyuej.com/files/MMSP/IQA_Evaluation_Metrics.pdf).<br>
 ✔︎ In the [code](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/lib/utils.py#L29) (`evaluation_criteria` function), PLCC, SRCC, Kendall Rank-order Correlation Coefficient (KRCC), Root Mean Square Error (RMSE), Mean Absolute Error (MAE), and Outlier Ratio (OR) are all calculated. In this work, I only compare the PLCC and SRCC among different IQA algorithms.
+
+## Motivation
+**Local Content**: HVS is adaptive to the local content.<br>
+**Long-range Dependency and Relational Modeling**: HVS perceives image quality with long-range dependency constructed among different regions.
+
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212448022-b062ab66-9ea4-4011-8574-0282e8435d56.png">
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212448030-260c9855-07ae-45c5-89d5-ba30a9cfb097.png">
 
 ## Local Modeling and Non-local Modeling
 **Local Modeling**: The local modeling methods encode spatially proximate local neighborhoods.<br>
