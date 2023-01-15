@@ -141,8 +141,8 @@ python superpixel.py
 **Local Modeling**: The local modeling methods encode spatially proximate local neighborhoods.<br>
 **Non-local Modeling**: The non-local modeling establishes the spatial integration of information by long- and short-range communications with different spatial weighting functions.
 
-<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212447930-17191e42-9efd-4c2f-a6b0-cbc863c31385.png">
-<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212447939-7d4a2e4b-e65c-491f-8cd8-fab9f36b8626.png">
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212519908-75ccf125-4c21-412d-b923-c8d65786f0fb.png">
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212519914-d3948de4-dc2e-4125-9414-9725aa76af03.png">
 
 <details>
 <summary>Non-local Behavior Demo</summary>
