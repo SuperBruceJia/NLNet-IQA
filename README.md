@@ -64,7 +64,7 @@ Quick Start (Folder: Individual Distortion Evaluation):
 python TID2013-Single-Distortion.py
 ```
 (1) Please change the trained models' path and Database path.<br>
-(2) The Distortion Type of the Index can be found from original papers: [TID2013](https://www.sciencedirect.com/science/article/pii/S0923596514001490) and [KADID](http://database.mmsp-kn.de/kadid-10k-database.html#:~:text=blurs). 
+(2) The Index of Distortion Type can be found from original papers: [TID2013](https://www.sciencedirect.com/science/article/pii/S0923596514001490) and [KADID](http://database.mmsp-kn.de/kadid-10k-database.html#:~:text=blurs). 
 
 <details>
 <summary>Experimental Results</summary>
