@@ -134,8 +134,8 @@ python superpixel.py
 **Local Content**: HVS is adaptive to the local content.<br>
 **Long-range Dependency and Relational Modeling**: HVS perceives image quality with long-range dependency constructed among different regions.
 
-<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212448022-b062ab66-9ea4-4011-8574-0282e8435d56.png">
-<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212448030-260c9855-07ae-45c5-89d5-ba30a9cfb097.png">
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212519878-0da16724-750d-43a2-a083-fc593463ad43.png">
+<img width="1460" alt="image" src="https://user-images.githubusercontent.com/31528604/212519886-c7fb7ca1-ec50-4b7d-8e21-2287e00cf29c.png">
 
 ## Local Modeling and Non-local Modeling
 **Local Modeling**: The local modeling methods encode spatially proximate local neighborhoods.<br>
