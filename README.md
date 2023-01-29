@@ -26,7 +26,7 @@ Framework: PyTorch, OpenCV, PIL, scikit-image, scikit-learn, Numba JIT, Matplotl
 ### Intra-Database Experiments
 Experiments Settings: 👉 Check [this file](https://github.com/SuperBruceJia/NLNet-IQA/blob/main/lib/make_index.py#L8)<br>
 ✔︎ Split the reference images into 60% training, 20% validation, and 20% testing.<br>
-✔︎ 10 random splits of the reference indices by setting random seed `random.seed(random_seed)` from 1 to 10 `args.exp_id`.<br>
+✔︎ 10 random splits of the reference indices by setting seed `random.seed(random_seed)` from 1 to 10 `args.exp_id`.<br>
 ✔︎ The median SRCC and PLCC on the testing set are reported.<br>
 
 Quick Start:<br>
