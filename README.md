@@ -279,12 +279,12 @@ We provide a BibTeX entry below.
 }
 
 @article{Jia2022NLNetThesis,
-  title     = {No-reference Image Quality Assessment via Non-local Modeling},
-  author    = {Jia, Shuyue},
-  journal   = {CityU Scholars},
-  year      = {May 2023},
-  publisher = {City University of Hong Kong},
-  url       = {https://scholars.cityu.edu.hk/en/theses/noreference-image-quality-assessment-via-nonlocal-modeling(2d1e72fb-2405-43df-aac9-4838b6da1875).html}
+    title     = {No-reference Image Quality Assessment via Non-local Modeling},
+    author    = {Jia, Shuyue},
+    journal   = {CityU Scholars},
+    year      = {May 2023},
+    publisher = {City University of Hong Kong},
+    url       = {https://scholars.cityu.edu.hk/en/theses/noreference-image-quality-assessment-via-nonlocal-modeling(2d1e72fb-2405-43df-aac9-4838b6da1875).html}
 }
 ```
 
