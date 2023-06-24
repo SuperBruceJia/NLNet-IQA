@@ -277,10 +277,19 @@ We provide a BibTeX entry below.
     pages     = {01-06},
     doi       = {10.1109/MMSP55362.2022.9950035}
 }
+
+@article{Jia2022NLNetThesis,
+  title     = {No-reference Image Quality Assessment via Non-local Modeling},
+  author    = {Jia, Shuyue},
+  journal   = {CityU Scholars},
+  year      = {May 2023},
+  publisher = {City University of Hong Kong},
+  url       = {https://scholars.cityu.edu.hk/en/theses/noreference-image-quality-assessment-via-nonlocal-modeling(2d1e72fb-2405-43df-aac9-4838b6da1875).html}
+}
 ```
 
 ## Contact
-If you have any question, please drop me an email at shuyuej@ieee.org.
+If you have any questions, please drop me an email at shuyuej@ieee.org.
 
 ## Acknowledgement
 The authors would like to thank Dr. Xuhao Jiang, Dr. Diqi Chen, and Dr. Jupo Ma for helpful discussions and invaluable inspiration. A special appreciation should be shown to Dr. Dingquan Li because this code is built upon his [(Wa)DIQaM-FR/NR](https://github.com/lidq92/WaDIQaM) re-implementation.
