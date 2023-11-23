@@ -207,11 +207,12 @@ python superpixel.py
 </details>
 
 ## Paper and Presentations
-(1) **Original Paper** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf).<br>
-(2) **Detailed Slides Presentation** can be downloaded [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf).<br>
-(3) **Detailed Slides Presentation with Animations** can be downloaded [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects_Animations.pdf).<br>
-(4) **Simple Slides Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf).<br>
-(5) **Poster Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf).
+(1) **Thesis** can be downloaded [here](https://scholars.cityu.edu.hk/en/theses/noreference-image-quality-assessment-via-nonlocal-modeling(2d1e72fb-2405-43df-aac9-4838b6da1875).html).<br>
+(2) **Original Paper** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Paper.pdf).<br>
+(3) **Detailed Slides Presentation** can be downloaded [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects.pdf).<br>
+(4) **Detailed Slides Presentation with Animations** can be downloaded [here](https://shuyuej.com/files/Presentation/A_Summary_Three_Projects_Animations.pdf).<br>
+(5) **Simple Slides Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Slides.pdf).<br>
+(6) **Poster Presentation** can be downloaded [here](https://shuyuej.com/files/MMSP/MMSP22_Poster.pdf).
 
 ### Model Overiew
 <div>
