@@ -8,10 +8,11 @@ import os
 import sys
 import time
 import warnings
-import numpy as np
 from argparse import ArgumentParser
 
+import PIL
 import torch
+import numpy as np
 
 from lib.utils import *
 from benchmark.database import database, distortion_type
@@ -32,6 +33,8 @@ def run(args):
 
     # Load model
     model = Network(args=args).cuda()
+    # Please load the model via the next line if you wanna conduct inference on CPU 
+    # model.load_state_dict(torch.load(args.model_file, map_location=torch.device('cpu')))
     model.load_state_dict(torch.load(args.model_file))
     model.train(False)
 
@@ -45,7 +48,7 @@ def run(args):
     # Note: You can choose not to resize it!!
     height = 384
     width = 512
-    img = im.resize((width, height), Image.ANTIALIAS)
+    img = im.resize((width, height), PIL.Image.LANCZOS)
 
     # Show image
     plt.figure("image")
