@@ -33,9 +33,9 @@ def run(args):
 
     # Load model
     model = Network(args=args).cuda()
+    model.load_state_dict(torch.load(args.model_file))
     # Please load the model via the next line if you wanna conduct inference on CPU 
     # model.load_state_dict(torch.load(args.model_file, map_location=torch.device('cpu')))
-    model.load_state_dict(torch.load(args.model_file))
     model.train(False)
 
     # Start time
@@ -66,7 +66,11 @@ def run(args):
         patch = torch.as_tensor(patch.cuda(), dtype=torch.float32)  # [batch_size, image_nodes, patch_nodes, n_features]
         patch_graph = torch.as_tensor(patch_graph.cuda(), dtype=torch.float32)  # [batch_size, image_nodes, patch_nodes, patch_nodes]
         cnn_input = torch.as_tensor(cnn_input.cuda(), dtype=torch.float32)  # [batch_size, num_patch, 3, patch_size, patch_size]
-
+        # Please use the following if you use CPU 
+        # patch = torch.as_tensor(patch, dtype=torch.float32)  # [batch_size, image_nodes, patch_nodes, n_features]
+        # patch_graph = torch.as_tensor(patch_graph, dtype=torch.float32)  # [batch_size, image_nodes, patch_nodes, patch_nodes]
+        # cnn_input = torch.as_tensor(cnn_input, dtype=torch.float32)  # [batch_size, num_patch, 3, patch_size, patch_size]
+        
         pre = model(patch, patch_graph, cnn_input)[0]
         final_pre = torch.reshape(pre, [-1]).mean().cpu().detach().numpy()
 
